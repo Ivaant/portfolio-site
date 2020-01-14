@@ -7,6 +7,8 @@ body {
     background-color: #f3f3f3;
 }
 
+/* HEADER */
+
 header {
     background-color: #fff;
     width: 100%;
@@ -18,7 +20,7 @@ header .header-brand {
     margin: 0 auto;
     padding: 20px 0;
     text-align: center;
-    font-family: Catamaran;
+    font-family: 'Catamaran', sans-serif;;
     font-size: 1.5rem;
     font-weight: 900;
     color: #111;
@@ -50,6 +52,8 @@ a.header-hire-me {
     padding: 0 10px;
 }
 
+/* MAIN */
+
 .index-banner {
     width: 100%;
     height: calc(100vh - 100px);
@@ -64,7 +68,7 @@ a.header-hire-me {
     background-size: cover;
 }
 
-.index-banner h1, h2, h3 {
+.index-banner h1, .index-banner h2, .index-banner h3 {
     padding: 5px;
     font-family: Catamaran;
     font-size: 2rem;
@@ -84,3 +88,26 @@ a.header-hire-me {
     font-style: italic;
     line-height: 1.5rem;
 }
+
+.index-links div {
+    margin: 16px 16px 0;
+    width: calc(100% - 32px);
+    height: 80px;
+    background-color: #e9e9e9;
+}
+
+.index-links div h3 {
+    display: block;
+    margin: 0 auto;
+    padding: 20px 0;
+    text-align: center;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    font-weight: 700;
+    color: #111;
+    text-transform: uppercase;
+}
+
+/* FOOTER */
+
