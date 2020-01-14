@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: #f3f3f3;
+}
+
+header {
+    background-color: #fff;
+    width: 100%;
+    height: 100px;
+}
+
+header .header-brand {
+    display: block;
+    margin: 0 auto;
+    padding: 20px 0;
+    text-align: center;
+    font-family: Catamaran;
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #111;
+    text-transform: uppercase;
+}
+
+header nav ul {
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+header nav ul li a {
+    font-family: Catamaran;
+    font-size: 1rem;
+    color: #111;
+    text-transform: uppercase;
+}
+
+a.header-hire-me {
+    display: none;
+    border: solid 2px #111;
+    border-radius: 10px;
+    padding: 0 10px;
+}
+
+.index-banner {
+    width: 100%;
+    height: calc(100vh - 100px);
+}
+
+.index-lead-img {
+    width: 100%;
+    height: 370px;
+    background-image: url('../images/home-lead.PNG');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.index-banner h1, h2, h3 {
+    padding: 5px;
+    font-family: Catamaran;
+    font-size: 2rem;
+    font-weight: 900;
+    color: #111;
+    text-align: center;
+}
+
+.index-banner h3 {
+    font-weight: 300;
+}
+
+.index-banner h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-style: italic;
+    line-height: 1.5rem;
+}
