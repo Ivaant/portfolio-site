@@ -113,6 +113,8 @@ a.header-hire-me {
     font-weight: 500;
     font-style: italic;
     line-height: 1.5rem;
+    max-width: 300px;
+    margin: 0 auto;
 }
 
 .index-links div {
