@@ -1,5 +1,14 @@
 /* MAIN */
 
+.cases-text {
+    padding: 10px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+    line-height: 2rem;
+}
 
 .cases-links div {
     margin: 16px;
@@ -19,4 +28,31 @@
     font-weight: 700;
     color: #111;
     text-transform: uppercase;
+}
+
+@media only screen and (min-width: 1000px) {
+    .cases-text {
+        padding: 25px 5px;
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+    }
+
+    .cases-links {
+overflow: hidden;
+    }
+
+    .cases-links div {
+        float: left;
+        width: calc(25% - 16px);
+        height: 234px;
+        margin: 8px;
+    }
+
+    .cases-links div p {
+        padding-top: 40%;
+    }
+
+    footer {
+        margin: 0 8px;
+    }
 }

@@ -177,15 +177,15 @@ a.header-hire-me {
     }
     .index-links div {
         float: left;
-        margin: 4px;
+        margin: 8px;
     }
     .index-links div.index-linkbox-square {
-        width: calc(25% - 8px);
-        height: calc(25% - 8px);
+        width: calc(25% - 16px);
+        height: calc(25% - 16px);
     }
     .index-links div.index-linkbox-rect {
-        width: calc(50% - 8px);
-        height: calc(25% - 8px);
+        width: calc(50% - 16px);
+        height: calc(25% - 16px);
     }
 
     .index-links div h3 {
