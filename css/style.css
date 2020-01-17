@@ -47,6 +47,10 @@ header nav ul li {
     padding: 0 15px;
 }
 
+.current-link {
+    border-bottom: 3px solid #111;
+}
+
 header nav ul li a {
     font-family: Catamaran;
     font-size: 1rem;
