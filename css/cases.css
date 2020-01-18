@@ -28,7 +28,7 @@
 display: block;
 }
 
-.cases-links div p {
+.cases-links div a p {
     display: block;
     margin: 0 auto;
     padding: 20px 0;
@@ -39,13 +39,14 @@ display: block;
     font-weight: 700;
     color: #fff;
     text-shadow: 1px 1px 1px #111, 2px 2px 2px #111, 3px 3px 3px #111;
+    transition: all 0.22s ease-out;
     -webkit-transition: all 0.22s ease-out;
    -moz-transition:    all 0.22s ease-out;
    -ms-transition:     all 0.22s ease-out;
    -o-transition:      all 0.22s ease-out;
 }
 
-.cases-links div p:hover {
+.cases-links div a p:hover {
     position: relative;
     top: -3px;
     left: -3px;
@@ -59,16 +60,26 @@ display: block;
         line-height: 2.5rem;
     }
     .cases-links {
-        overflow: hidden;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-content: center;
+        /* overflow: hidden; */
     }
     .cases-links div {
-        float: left;
-        width: calc(25% - 16px);
+        /* float: left; */
+        flex-basis: calc(25% - 16px);
         height: 234px;
         margin: 8px;
     }
-    .cases-links div p {
-        padding-top: 40%;
+    .cases-links div a {
+        display: block;
+        width: 100%;
+    }
+
+    .cases-links div a p {
+        padding: 0;
+        line-height: 234px;
     }
     footer {
         margin: 0 8px;
