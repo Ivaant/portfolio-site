@@ -10,7 +10,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/case.css">
+    <link rel="stylesheet" href="./css/contact.css">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
         integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
@@ -22,42 +22,35 @@
         <a class="header-brand" href="index.html">WhatsWeb</a>
         <nav>
             <ul>
-                <li class="current-link"><a href="index.html">Work</a></li>
+                <li><a href="index.html">Work</a></li>
                 <li><a href="about.html">About Me</a></li>
                 <li><a href="blog.html">Blog</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a class="current-link" href="contact.html">Contact</a></li>
                 <li><a class="header-hire-me" href="hire-me.html">Hire Me</a></li>
             </ul>
         </nav>
     </header>
     <main>
-
         <div class="wrapper">
-            <h2 class="case-header">WeDevs</h2>
-            <article>
-                <div class="case-image"></div>
-                <div class="case-text">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur sunt esse excepturi amet sed,
-                        dicta officia voluptas maiores ab officiis error repellat nulla quas cum ipsam beatae dolore
-                        ipsa ex.
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero voluptatibus facere accusantium
-                        illo dicta consequatur atque rerum sequi architecto iure voluptatem quo, dolore exercitationem
-                        corporis non autem provident consequuntur inventore.
-                    </p>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur sunt esse excepturi amet sed,
-                        dicta officia voluptas maiores ab officiis error repellat nulla quas cum ipsam beatae dolore
-                        ipsa ex.
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero voluptatibus facere accusantium
-                        illo dicta consequatur atque rerum sequi architecto iure voluptatem quo, dolore exercitationem
-                        corporis non autem provident consequuntur inventore.
-                    </p>
-                </div>
-            </article>
-            <div class="link-back">
-                <a href="cases.html">Back to Cases</a>
-            </div>
+            <section class="section-form">
+                <h2>Let's talk!</h2>
+                <h1>call me or send me a request</h1>
+                <p><i class="fas fa-phone-square"></i>  +380 50 472 70 60</p>
+                <p>
+                    <i class="icon-2x fas fa-envelope"></i>  
+                    <a class="email"
+                        href="mailto:ivanov.sergiy@outlook.com?subject=Request%20for%20collaboration">ivanov.sergiy@outlook.com</a>
+                </p>
+                <form action="/" method="post">
+                    <input type="email" name="email" placeholder="e-mail address for feedback">
+                    <textarea name="message" id="reqText" cols="30" rows="5" placeholder="Type your request here"></textarea>
+                    <input type="submit" name="submit" value="SEND">
+                </form>
+            </section>
+            <section class="section-portrait">
+                <div class="img-portrait"></div>
+            </section>
         </div>
-
     </main>
     <div class="wrapper">
         <footer>
@@ -72,7 +65,7 @@
                 <li><a href="#"><i class="fab fa-linkedin icon-2x"></i></a></li>
                 <li><a href="#"><i class="icon-2x fab fa-github"></i></a></li>
                 <li><a href="#"><i class="icon-2x fab fa-instagram"></i></a></li>
-                <li><a href="#"><i class="icon-2x fas fa-envelope"></i></i></a></li>
+                <li><a href="#"><i class="icon-2x fas fa-envelope"></i></a></li>
             </ul>
             <p>©
                 <script>

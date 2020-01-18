@@ -1,0 +1,105 @@
+/* MAIN */
+
+.section-form, .section-form form {
+    width: 80vw;
+    margin: 10px auto 0;
+}
+
+.section-form h2, .section-form h1 {
+    width: 100%;
+    padding: 5px;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: #111;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.section-form h1 {
+    font-weight: bolder;
+    font-size: 1rem;
+    margin-bottom: 30px;
+}
+
+.section-form p {
+    display: block;
+    margin: 10px 0 10px 10px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+
+a.email {
+    color: #111;
+}
+
+form {
+    overflow: hidden;
+}
+
+form input, form textarea {
+    display: block;
+    width: 100%;
+    border-radius: 30px;
+    margin: 10px auto;
+    border: solid 1px #bbb;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 2rem;
+    text-indent: 20px;
+}
+
+form input:focus, form textarea:focus {
+    box-shadow: 0 3px 0 rgba(40, 40, 40, 0.5);
+}
+
+form textarea {
+    resize: vertical;
+    max-height: 300px;
+    min-height: 100px;
+}
+
+form input[type=submit] {
+    float: right;
+    width: 100px;
+    padding: 0;
+    color: #f3f3f3;
+    background-color: #111;
+    text-align: center;
+}
+
+::placeholder {
+    color: #999;
+}
+
+.section-portrait {
+    display: none;
+}
+
+@media only screen and (min-width: 1000px) {
+    .wrapper {
+        width: 1000px;
+    }
+    .section-form {
+        display: inline-block;
+        width: 49%;
+    }
+    .section-form form {
+        width: 100%;
+    }
+    .section-portrait {
+        display: inline-block;
+        width: 49%;
+    }
+    .img-portrait {
+        background-image: url("https://bloximages.chicago2.vip.townnews.com/morningjournal.com/content/tncms/assets/v3/editorial/0/d8/0d8870ce-4fdb-5cb4-aa97-cf8e532a3b0c/5ba1552e8fc50.image.jpg?resize=400%2C600");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: top center;
+        height: 500px;
+        width: 100%;
+    }
+}
